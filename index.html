@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- displays site properly based on user's device -->
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+
+    <title>Frontend Mentor | Social links profile</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+        .attribution {
+            font-size: 11px;
+            text-align: center;
+        }
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        :root {
+            font-size: 10px;
+        }
+
+        .attribution a {
+            color: hsl(228, 45%, 44%);
+        }
+        body {
+            height: 100vh;
+            font-family: Inter, sans-serif;
+            font-size: 1.4rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: hsl(0, 0%, 8%);
+            color: hsl(0, 0%, 100%);
+            padding: 2rem;
+        }
+        section {
+            border-radius: 1rem;
+            background-color: hsl(0, 0%, 12%);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 3rem 5rem;
+        }
+
+        section img {
+            max-width: 50%;
+            border-radius: 50%;
+        }
+
+        h1 {
+            margin-top: 3rem;
+        }
+        h4 {
+            margin: 2rem 0;
+            color: hsl(75, 94%, 57%);
+        }
+        p {
+            margin: 2rem 0;
+            font-size: 1.4rem;
+        }
+        article {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            gap: .5rem;
+        }
+        button {
+            border-radius: .8rem;
+            background-color: hsl(0, 0%, 20%);
+            color: hsl(0, 0%, 100%);
+            padding: 1.2rem;
+            text-align: center;
+            font-weight: 700;
+            border: none;
+            outline: none;
+            margin: .5rem;
+        }
+
+        button:hover {
+            cursor: pointer;
+        background-color: hsl(75, 94%, 57%); ;
+            color: hsl(0, 0%, 12%);
+        }
+
+
+    </style>
+</head>
+<body>
+<section>
+    <img src="/assets/images/avatar-jessica.jpeg" alt="">
+    <h1>Jessica Randall</h1>
+    <h4>London, United Kingdom</h4>
+    <p>
+        "Front-end developer and avid reader."
+    </p>
+    <article>
+        <button>GitHub</button>
+        <button>Frontend Mentor</button>
+        <button> LinkedIn</button>
+        <button>Twitter</button>
+        <button>Instagram</button>
+    </article>
+</section>
+</body>
+</html>
